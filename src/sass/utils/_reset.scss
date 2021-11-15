@@ -1,0 +1,26 @@
+body {
+  font-family: Open Sans;
+  font-size: 18px;
+  line-height: 1.67;
+  /* or 167% */
+
+  color: $txt-color;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin: 0;
+}

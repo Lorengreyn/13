@@ -1,0 +1,12 @@
+// Рамки возле картинок. border картинок.
+@mixin border(){
+    border: 2px solid $rectangle-color;
+    box-sizing: border-box;
+    border-radius: 140px 0px;
+}
+// Рамки возле меньших картинок картинок. border картинок.
+@mixin border-low(){
+    border: 2px solid $rectangle-color;
+    box-sizing: border-box;
+    border-radius: 100px 0px;
+}

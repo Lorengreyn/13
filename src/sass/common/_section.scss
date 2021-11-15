@@ -1,0 +1,19 @@
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+// line-heigh difrent for eath section!
+.section-title {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 48px;    
+    color: $bold-txt-color;
+}
+
+.section-subtitle {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: $txt-color;
+}

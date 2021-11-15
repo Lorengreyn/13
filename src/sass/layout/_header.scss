@@ -1,0 +1,41 @@
+.container__header {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.page-nav {
+  display: flex;
+  margin-right: 65px;
+}
+
+.page-nav__item {
+  &:not(:last-child) {
+    margin-right: 45px;
+  }
+}
+
+.page-nav__link {
+  color: $bold-txt-color;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.37;
+
+  &:hover,
+  &:focus {
+    color: $txt-color;
+  }
+}
+
+.button__header {
+  background-color: #caa892;
+  border: none;
+  border-radius: 15px 0;
+  &:hover,
+  &:focus {
+    background-color: $button-color;
+  }
+}

@@ -1,0 +1,13 @@
+// Используется в большинстве кнопок. Там где не используется нужно переназначить или border-radius или всё (хедер).
+.button {
+  background: $button-color;
+  border-radius: 20px 0px;
+  border: none;
+  min-width: 60px;
+  padding: 5px 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.37;
+  cursor: pointer;
+  color: $white;
+}
